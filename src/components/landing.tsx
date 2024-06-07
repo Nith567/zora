@@ -2,11 +2,15 @@ import React from "react";
 import { BASED } from "./based";
 import Link from "next/link";
 import Connect from "./wallet";
+
 function Landing() {
   const themes = ["OG"];
 
   return (
-    <section className="bg-meme bg-[--blue] min-h-auto md:min-h-[95vh] flex flex-col items-start w-screen p-[2.5vw] pb-2 text-white">
+    <section className="bg-meme bg-[--blue] min-h-auto md:min-h-[95vh] flex flex-col items-start w-screen p-[2.5vw] pb-2 text-white relative">
+      <div className="absolute top-4 right-4 md:top-8 md:right-8">
+        <Connect />
+      </div>
       <div className="px-10 pt-8 md:p-0 md:block flex flex-col items-center justify-center w-full">
         <img
           src="https://assets-global.website-files.com/663b0e68b97cc609cd859232/663c54d3581b8a0c2a694c78_nav-logo.svg"
@@ -31,11 +35,10 @@ function Landing() {
           The digital world is memetic. Join us for 48 hours of Open Edition
           mints with the most based onchain.
         </p>
-
+        <div className="mt-8"></div>
       </div>
       <div className="flex items-center justify-center w-full">
-       {/* <Connect /> */}
-       <Link
+        <Link
           href="/#art"
           className="relative cursor-pointer w-[13rem] md:w-[15rem] mt-[3rem] md:mt-[5rem]"
         >
