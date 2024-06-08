@@ -61,7 +61,7 @@ a:hover {
   animation-iteration-count: infinite;
 }
 
-.shake:hover {
+/* .shake:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
-}
+} */

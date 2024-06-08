@@ -1,11 +1,64 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 
 function Mints() {
   const mintData = [
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
+    {
+      src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+    },
     {
       src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
     },
@@ -48,24 +101,28 @@ function Mints() {
     console.log("inside handleMint");
   }
   return (
-    <section id="art" className="p-[7vw] border-t border-neutral-300">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-[7vw]">
+    <section id="art" className="p-[7vw] bg-[--blue]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 w-[40vw] mx-auto">
         {mintData.map((item, index) => (
-          <div key={index} className="flex flex-col items-start gap-4">
-            <img
-              src={item.src}
-              alt="cat image"
-              loading="lazy"
-              className="w-full shake h-[85vh] block object-cover rounded-[1.25rem]"
-            />
-            <h1 className="text-[2rem] pb-2 leading-none text-[--blue]">
-              Thank you mambi
-            </h1>
+          <div
+            key={index}
+            className="flex flex-col items-start gap-4 mb-5 pb-4 bg-white rounded-md overflow-hidden"
+          >
+            <div className="bg-[--blue]">
+              <img
+                src={item.src}
+                alt="cat image"
+                loading="lazy"
+                className="h-[50vh] w-full block object-cover "
+              />
+            </div>
+
             <button
               onClick={handleMint}
-              className="shake rounded-full shake px-8 py-5 bg-[--blue] text-white"
+              className="flex flex-row items-center gap-3 hover:bg-neutral-800 rounded-md text-sm shake px-3 py-2 mx-auto bg-black text-white"
             >
-              Mint
+              <Image src="/sphere.png" alt="sphere" height={18} width={18} />
+              <span>Mint</span>
             </button>
           </div>
         ))}

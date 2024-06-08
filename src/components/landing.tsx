@@ -7,7 +7,7 @@ function Landing() {
   const themes = ["OG"];
 
   return (
-    <section className="bg-meme bg-[--blue] min-h-auto md:min-h-[95vh] flex flex-col items-start w-screen p-[2.5vw] pb-2 text-white relative">
+    <section className="bg-meme bg-[--blue] min-h-auto md:min-h-screen flex flex-col items-start w-screen p-[2.5vw] pb-2 text-white relative">
       <div className="absolute top-4 right-4 md:top-8 md:right-8">
         <Connect />
       </div>
@@ -31,11 +31,10 @@ function Landing() {
         </div>
 
         <BASED />
-        <p className="text-[0.9rem] md:text-[1.2rem] leading-[1.5] max-w-[90vw] md:max-w-[40vw] text-center mt-8">
+        <p className="text-[0.9rem] md:text-[1.2rem] leading-[1.5] max-w-[90vw] md:max-w-[40vw] text-center mt-16">
           The digital world is memetic. Join us for 48 hours of Open Edition
           mints with the most based onchain.
         </p>
-        <div className="mt-8"></div>
       </div>
       <div className="flex items-center justify-center w-full">
         <Link
