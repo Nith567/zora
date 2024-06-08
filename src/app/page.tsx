@@ -12,7 +12,7 @@ export default function Home() {
       <Landing />
       <MintCountDown />
       <Mints />
-      <CertifiedMints />
+      {/* <CertifiedMints /> */}
       <FAQ />
       <Spin />
     </main>
