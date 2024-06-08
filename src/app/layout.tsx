@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
 import Footer from "@/components/footer";
 import Head from "next/head";
 import { Providers } from "./providers";
@@ -28,16 +29,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-              <Providers>
-      <Head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </Head>
-      <body className={ibm.className}>
-
-        {children}
-        <Footer />
-    
-      </body>
+      <Providers>
+        <Head>
+          <link rel="icon" href="/favicon.ico" sizes="any" />
+        </Head>
+        <body className={ibm.className}>
+          <Image
+            src="https://cdn.prod.website-files.com/666246aaeddc718e33bdf357/66624b920dbacd682221c71c_shaolin%20art%20center%20mark.svg"
+            alt="shield"
+            height={205}
+            width={205}
+            className="fixed top-6 left-6 z-[1000]"
+          />
+          {children}
+          <Footer />
+        </body>
       </Providers>
     </html>
   );

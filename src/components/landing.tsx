@@ -11,13 +11,13 @@ function Landing() {
       <div className="absolute top-4 right-4 md:top-8 md:right-8">
         <Connect />
       </div>
-      <div className="px-10 pt-8 md:p-0 md:block flex flex-col items-center justify-center w-full">
-        <img
+      <div className="px-10 pt-8 h-[1.7rem] md:h-[2.3rem] md:p-0 md:block flex flex-col items-center justify-center w-full">
+        {/* <img
           src="https://assets-global.website-files.com/663b0e68b97cc609cd859232/663c54d3581b8a0c2a694c78_nav-logo.svg"
           loading="lazy"
           alt=""
           className="cursor-pointer h-[1.7rem] md:h-[2.3rem]"
-        ></img>
+        ></img> */}
       </div>
 
       <div className="flex flex-col items-center mx-auto relative pt-[8rem] md:p-0 md:-top-3">
