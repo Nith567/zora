@@ -1,20 +1,17 @@
-import CertifiedMints from "@/components/certifiedmints";
 import FAQ from "@/components/faq";
-import Landing from "@/components/landing";
+import Hero from "@/components/hero";
 import MintCountDown from "@/components/mintcountdown";
 import Mints from "@/components/mints";
-import Spin from "@/components/spin";
-import Image from "next/image";
+import Connect from "@/components/wallet";
 
 export default function Home() {
   return (
     <main>
-      <Landing />
+      <Connect />
+      <Hero />
       <MintCountDown />
       <Mints />
-      {/* <CertifiedMints /> */}
       <FAQ />
-      <Spin />
     </main>
   );
 }

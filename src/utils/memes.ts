@@ -48,3 +48,96 @@ export const memes = [
     src: "https://assets-global.website-files.com/663b0e68b97cc609cd859232/663da8cb9d33b309220e4d9a_diamond-hands.png",
   },
 ];
+
+export const mintData = [
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+  {
+    src: "https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fmagic.decentralized-content.com%2Fipfs%2Fbafybeifr2rkilmqulzv54cs3v7qvrsmm7jdp63gd2ac5d6ucyfuhv5vrzi&w=1920&q=75",
+  },
+];

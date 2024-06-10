@@ -34,13 +34,24 @@ export default function RootLayout({
           <link rel="icon" href="/favicon.ico" sizes="any" />
         </Head>
         <body className={ibm.className}>
-          <Image
-            src="https://cdn.prod.website-files.com/666246aaeddc718e33bdf357/66624b920dbacd682221c71c_shaolin%20art%20center%20mark.svg"
-            alt="shield"
-            height={205}
-            width={205}
-            className="fixed top-6 left-6 z-[1000]"
-          />
+          <div className="lg:hidden block">
+            <Image
+              src="https://cdn.prod.website-files.com/666246aaeddc718e33bdf357/66624b920dbacd682221c71c_shaolin%20art%20center%20mark.svg"
+              alt="shield"
+              height={140}
+              width={140}
+              className="fixed top-6 left-6 z-[2000]"
+            />
+          </div>
+          <div className="hidden lg:block">
+            <Image
+              src="https://cdn.prod.website-files.com/666246aaeddc718e33bdf357/66624b920dbacd682221c71c_shaolin%20art%20center%20mark.svg"
+              alt="shield"
+              height={205}
+              width={205}
+              className="fixed top-6 left-6 z-[2000]"
+            />
+          </div>
           {children}
           <Footer />
         </body>

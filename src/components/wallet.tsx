@@ -7,21 +7,19 @@ function Connect() {
   const { disconnect } = useDisconnect();
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="fixed bottom-10 left-10 z-[3000]">
       {address ? (
-        <div className="flex flex-col items-center md:items-end">
-          <button
-            className="bg-white text-[--blue] rounded-full px-3 py-1.5 text-sm md:text-base hover:bg-[--blue] hover:text-white transition duration-300 ease-in-out"
-            onClick={() => disconnect()}
-          >
-            Disconnect
-          </button>
-        </div>
+        <button
+          className="bg-white text-black px-3 py-1.5 text-sm font-medium cursor-pointer transition duration-300 ease-in-out"
+          onClick={() => disconnect()}
+        >
+          Disconnect
+        </button>
       ) : (
         connectors.map((connector) => (
           <button
             key={connector.id}
-            className="bg-white text-[--blue] rounded-full px-3 py-1.5 text-sm md:text-base hover:bg-[--blue] hover:text-white transition duration-300 ease-in-out"
+            className="bg-white text-black px-3 py-1.5 text-sm font-medium cursor-pointer transition duration-300 ease-in-out"
             onClick={() => connect({ connector })}
           >
             Connect

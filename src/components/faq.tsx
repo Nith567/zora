@@ -18,7 +18,7 @@ function FAQ() {
             minted for 48 hours
             <br />
             <br />
-            This drop is supported by Transient Labs and Base.
+            This drop is supported by The Creators and Base.
           </p>
         </div>
         <div className="py-[1.9rem] flex-[50%] px-[1.5rem] md:px-[5rem]">
@@ -47,11 +47,11 @@ function FAQ() {
       <div className="flex md:flex-row flex-col py-16">
         <div className="py-[1.9rem] flex-[50%] px-[1.5rem] md:px-[5rem]">
           <h2 className="text-[2rem] md:text-[2rem] mb-8">
-            BASE is now supported on Transient Labs
+            BASE is now supported on The Creators
           </h2>
           <p className="text-[0.8rem] md:text-base">
-            Creators on the Transient Labs platform can now utilize the BASE
-            chain to create onchain.
+            Creators on the The Creators platform can now utilize the BASE chain
+            to create onchain.
           </p>
           <ul className="pl-[1.5rem] text-[0.8rem] md:text-base list-disc">
             <li>Deploy your own BASE contracts</li>
