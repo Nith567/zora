@@ -2,10 +2,16 @@
 
 import React, { useEffect } from "react";
 import Image from "next/image";
+import { useAccount } from "wagmi";
+import { base } from "wagmi/chains";
 import { mintData } from "@/utils/memes";
-
+import { Address, encodeAbiParameters, parseAbiParameters, parseEther } from 'viem';
+import { writeContract } from '@wagmi/core'
+import {zoraMintAbi} from "@/utils/abi";
+import {CONTRACT_ADDRESS, mintReferral, config, minterAddress,mintFee} from "@/wagmi";
 function Mints() {
   const [displayDialog, setDisplayDialog] = React.useState<boolean>(false);
+  const account = useAccount();
   const [comment, setComment] = React.useState<string>("");
   const [displayCustom, setDisplayCustom] = React.useState<boolean>(false);
   const [input, setInput] = React.useState<number>(0);
@@ -41,11 +47,36 @@ function Mints() {
     };
   }, [displayDialog]);
 
+
   // Mint function
-  function handleMint() {
-    console.log(input);
-    alert(input + " is input. And comment is " + comment);
+ async function handleMint() {
+
+  try{
+    const minterArguments  = encodeAbiParameters(
+      [
+        { name: 'mintTo', type: 'address' },
+        { name: 'comment', type: 'string' },
+      ],
+      [account.address as Address, comment]
+    )
+    const mintFeeInEth = parseEther(mintFee.toString());
+    const result = await writeContract(config, {
+      abi:zoraMintAbi,
+      address: CONTRACT_ADDRESS,
+      functionName: 'mintWithRewards',
+      args:[minterAddress, 1, input, minterArguments, mintReferral],
+      value:BigInt(input) * mintFeeInEth, 
+      chainId:base.id,
+      chain:base,
+    })
   }
+  catch(e){
+    console.log('declined');
+  }
+  }
+  
+
+  
 
   return (
     <section id="art" className="p-[7vw] bg-[--blue]">
